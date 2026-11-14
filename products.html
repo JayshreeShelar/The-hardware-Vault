@@ -1,470 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products — The Hardware Vault</title>
-    <meta name="description"
-        content="Explore The Hardware Vault range: mortise handles, cabinet handles, long handles, knobs and main door handles.">
-    <meta name="theme-color" content="#30211B">
-    <link rel="icon" href="favicon.ico" sizes="any">
-    <link rel="icon" type="image/png" href="assets/images/favicon-64.png">
-    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&family=Montserrat:wght@500;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script>document.documentElement.classList.add('js')</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products — The Hardware Vault</title>
+<meta name="description" content="Explore The Hardware Vault range: mortise handles, cabinet handles, long handles, knobs and main door handles.">
+<meta name="theme-color" content="#30211B">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="assets/images/favicon-64.png">
+<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>document.documentElement.classList.add('js')</script>
 </head>
-
 <body>
-    <a class="skip" href="#main">Skip to content</a>
-    <svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden"
-        aria-hidden="true" focusable="false">
-        <defs>
-            <symbol id="i-arrow" viewBox="0 0 24 24">
-                <path d="M3 12h17M14 6l6 6-6 6" />
-            </symbol>
-            <symbol id="i-chev" viewBox="0 0 24 24">
-                <path d="M6 9l6 6 6-6" />
-            </symbol>
-            <symbol id="i-up" viewBox="0 0 24 24">
-                <path d="M6 15l6-6 6 6" />
-            </symbol>
-            <symbol id="i-menu" viewBox="0 0 24 24">
-                <path d="M4 7h16M4 12h16M4 17h10" />
-            </symbol>
-            <symbol id="i-close" viewBox="0 0 24 24">
-                <path d="M6 6l12 12M18 6L6 18" />
-            </symbol>
-            <symbol id="i-phone" viewBox="0 0 24 24">
-                <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" />
-            </symbol>
-            <symbol id="i-mail" viewBox="0 0 24 24">
-                <rect x="3" y="5" width="18" height="14" rx="2" />
-                <path d="M3 7l9 6 9-6" />
-            </symbol>
-            <symbol id="i-pin" viewBox="0 0 24 24">
-                <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z" />
-                <circle cx="12" cy="10" r="2.5" />
-            </symbol>
-            <symbol id="i-clock" viewBox="0 0 24 24">
-                <circle cx="12" cy="12" r="9" />
-                <path d="M12 7v5l3 2" />
-            </symbol>
-            <symbol id="i-gem" viewBox="0 0 24 24">
-                <path d="M6 4h12l4 5-10 11L2 9z" />
-                <path d="M2 9h20M9 4l-2 5 5 11 5-11-2-5" />
-            </symbol>
-            <symbol id="i-lock" viewBox="0 0 24 24">
-                <rect x="5" y="11" width="14" height="10" rx="2" />
-                <path d="M8 11V8a4 4 0 0 1 8 0v3" />
-                <path d="M12 15v2" />
-            </symbol>
-            <symbol id="i-compass" viewBox="0 0 24 24">
-                <circle cx="12" cy="12" r="9" />
-                <path d="M15.5 8.5l-2 5-5 2 2-5z" />
-            </symbol>
-            <symbol id="i-award" viewBox="0 0 24 24">
-                <circle cx="12" cy="9" r="5.5" />
-                <path d="M8.5 13.8L7 21l5-3 5 3-1.5-7.2" />
-            </symbol>
-            <symbol id="i-pen" viewBox="0 0 24 24">
-                <path d="M4 20l1-4L16 5l3 3L8 19z" />
-                <path d="M14 7l3 3" />
-            </symbol>
-            <symbol id="i-home" viewBox="0 0 24 24">
-                <path d="M3 11l9-8 9 8" />
-                <path d="M5 10v10h14V10" />
-                <path d="M10 20v-6h4v6" />
-            </symbol>
-            <symbol id="i-check" viewBox="0 0 24 24">
-                <path d="M5 12.5l4.5 4.5L19 7" />
-            </symbol>
-            <symbol id="i-fb" viewBox="0 0 24 24">
-                <path class="ic-fill"
-                    d="M13.5 21v-7.5h2.6l.5-3.2h-3.1V8.4c0-.9.4-1.6 1.7-1.6h1.5V4.1c-.3 0-1.2-.1-2.2-.1-2.4 0-3.9 1.4-3.9 4v2.3H7.9v3.2h2.7V21z"
-                    fill="currentColor" stroke="none" />
-            </symbol>
-            <symbol id="i-ig" viewBox="0 0 24 24">
-                <rect x="4" y="4" width="16" height="16" rx="4.5" />
-                <circle cx="12" cy="12" r="3.6" />
-                <circle cx="16.6" cy="7.4" r=".6" fill="currentColor" />
-            </symbol>
-            <symbol id="i-in" viewBox="0 0 24 24">
-                <path
-                    d="M5 9.5h3V19H5zM6.5 5a1.7 1.7 0 1 1 0 3.4 1.7 1.7 0 0 1 0-3.4zM10.5 9.5h2.9v1.3c.5-.9 1.6-1.5 3-1.5 2.7 0 3.6 1.7 3.6 4.4V19h-3v-4.8c0-1.2-.3-2-1.5-2s-1.9.9-1.9 2.1V19h-3z"
-                    fill="currentColor" stroke="none" />
-            </symbol>
-            <symbol id="i-yt" viewBox="0 0 24 24">
-                <rect x="3" y="6" width="18" height="12" rx="3.5" />
-                <path d="M10.2 9.6v4.8l4.2-2.4z" fill="currentColor" />
-            </symbol>
-        </defs>
-    </svg>
-    <header class="site-header" id="top">
-        <div class="container">
-            <div class="hbar">
-                <a class="brand" href="index.html" aria-label="The Hardware Vault - Home"><img
-                        src="assets/images/logo.png" width="1130" height="537"
-                        alt="The Hardware Vault - Built to last. Trusted always."></a>
-                <button class="menu-btn" type="button" aria-label="Toggle menu" aria-expanded="false"
-                    aria-controls="mainNav"><svg class="ic m" aria-hidden="true">
-                        <use href="#i-menu" />
-                    </svg><svg class="ic x" aria-hidden="true">
-                        <use href="#i-close" />
-                    </svg></button>
-                <div class="nav-wrap" id="mainNav">
-                    <ul class="nav-list">
-                        <li><a class="nav-link" href="index.html">Home</a></li>
-                        <li><a class="nav-link" href="about.html">About</a></li>
-                        <li><a class="nav-link active" aria-current="page" href="products.html">Products</a></li>
-                        <li><a class="nav-link" href="contact.html">Contact</a></li>
-                        <li><a class="btn-a btn-sm magnetic" href="contact.html#enquiry">Enquire Now <svg class="ic "
-                                    aria-hidden="true">
-                                    <use href="#i-arrow" />
-                                </svg></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
-    <main id="main">
-        <section class="page-hero ph-split">
-            <div class="hero-glow" aria-hidden="true"></div>
-            <div class="container ph-grid">
-                <div class="ph-copy">
-                    <p class="crumb mb-2"><a href="index.html">Home</a> / Products</p>
-                    <h1>Premium hardware <em>collection</em></h1>
-                    <p class="sub" style="max-width:520px">Explore our range of hardware crafted for elegance and
-                        durability.</p>
-                    <div class="chips"><span class="chip">5 collections</span><span class="chip">15 designs</span><span
-                            class="chip">Gold, brass &amp; crystal</span></div>
-                </div>
-                <div class="ph-stage shape-arch stage-port" data-stage>
-                    <div class="stage-ring" aria-hidden="true"></div>
-                    <div class="arch-frame ph-bg"><img decoding="async" fetchpriority="high"
-                            src="assets/images/hero/products-hero.jpg" alt="" style="--pos:50% 92%"></div>
-                </div>
-            </div>
-        </section>
+<a class="skip" href="#main">Skip to content</a>
+<svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true" focusable="false"><defs>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M3 12h17M14 6l6 6-6 6"/></symbol>
+<symbol id="i-chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+<symbol id="i-up" viewBox="0 0 24 24"><path d="M6 15l6-6 6 6"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+<symbol id="i-gem" viewBox="0 0 24 24"><path d="M6 4h12l4 5-10 11L2 9z"/><path d="M2 9h20M9 4l-2 5 5 11 5-11-2-5"/></symbol>
+<symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/><path d="M12 15v2"/></symbol>
+<symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></symbol>
+<symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="9" r="5.5"/><path d="M8.5 13.8L7 21l5-3 5 3-1.5-7.2"/></symbol>
+<symbol id="i-pen" viewBox="0 0 24 24"><path d="M4 20l1-4L16 5l3 3L8 19z"/><path d="M14 7l3 3"/></symbol>
+<symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></symbol>
+<symbol id="i-fb" viewBox="0 0 24 24"><path class="ic-fill" d="M13.5 21v-7.5h2.6l.5-3.2h-3.1V8.4c0-.9.4-1.6 1.7-1.6h1.5V4.1c-.3 0-1.2-.1-2.2-.1-2.4 0-3.9 1.4-3.9 4v2.3H7.9v3.2h2.7V21z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-ig" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4.5"/><circle cx="12" cy="12" r="3.6"/><circle cx="16.6" cy="7.4" r=".6" fill="currentColor"/></symbol>
+<symbol id="i-in" viewBox="0 0 24 24"><path d="M5 9.5h3V19H5zM6.5 5a1.7 1.7 0 1 1 0 3.4 1.7 1.7 0 0 1 0-3.4zM10.5 9.5h2.9v1.3c.5-.9 1.6-1.5 3-1.5 2.7 0 3.6 1.7 3.6 4.4V19h-3v-4.8c0-1.2-.3-2-1.5-2s-1.9.9-1.9 2.1V19h-3z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-yt" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="3.5"/><path d="M10.2 9.6v4.8l4.2-2.4z" fill="currentColor"/></symbol>
+</defs></svg>
+<header class="site-header" id="top"><div class="container"><div class="hbar">
+<a class="brand" href="index.html" aria-label="The Hardware Vault - Home"><img src="assets/images/logo.png" width="1130" height="537" alt="The Hardware Vault - Built to last. Trusted always."></a>
+<button class="menu-btn" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="mainNav"><svg class="ic m" aria-hidden="true"><use href="#i-menu"/></svg><svg class="ic x" aria-hidden="true"><use href="#i-close"/></svg></button>
+<div class="nav-wrap" id="mainNav"><ul class="nav-list">
+<li><a class="nav-link" href="index.html">Home</a></li>
+<li><a class="nav-link" href="about.html">About</a></li>
+<li><a class="nav-link active" aria-current="page" href="products.html">Products</a></li>
+<li><a class="nav-link" href="contact.html">Contact</a></li>
+<li><a class="btn-a btn-sm magnetic" href="contact.html#enquiry">Enquire Now <svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+</ul></div></div></div></header>
+<main id="main">
+<section class="page-hero ph-split"><div class="hero-glow" aria-hidden="true"></div>
+<div class="container ph-grid"><div class="ph-copy"><p class="crumb mb-2"><a href="index.html">Home</a> / Products</p><h1>Premium hardware <em>collection</em></h1><p class="sub" style="max-width:520px">Explore our range of hardware crafted for elegance and durability.</p><div class="chips"><span class="chip">5 collections</span><span class="chip">15 designs</span><span class="chip">Gold, brass &amp; crystal</span></div></div>
+<div class="ph-stage shape-arch stage-port" data-stage><div class="stage-ring" aria-hidden="true"></div><div class="arch-frame ph-bg"><img decoding="async" fetchpriority="high" src="assets/images/hero/products-hero.jpg" alt="" style="--pos:50% 92%"></div></div></div></section>
 
-        <section class="sec">
-            <div class="container">
-                <div class="shop">
-                    <aside class="shop-side" data-reveal><span class="eyebrow">Browse</span>
-                        <h3>Categories</h3>
-                        <div class="filters" role="group" aria-label="Filter products"><button type="button"
-                                data-f="all" class="on" aria-pressed="true">All Products<b>15</b></button><button
-                                type="button" data-f="mortise-handle"
-                                data-intro="Refined mortise handles with a solid, confident feel &mdash; designed to anchor interior doors with quiet elegance."
-                                aria-pressed="false">Mortise Handle<b>3</b></button><button type="button"
-                                data-f="cabinet-handle"
-                                data-intro="Modern, understated cabinet handles that add a touch of gold detailing to wardrobes, kitchens and storage."
-                                aria-pressed="false">Cabinet Handle<b>3</b></button><button type="button"
-                                data-f="long-handles"
-                                data-intro="Tall architectural handles with clean lines, made to make a statement on modern doors."
-                                aria-pressed="false">Long Handles<b>3</b></button><button type="button" data-f="knobs"
-                                data-intro="Sculpted and decorative knobs that bring warmth and character to furniture and interiors."
-                                aria-pressed="false">Knobs<b>3</b></button><button type="button"
-                                data-f="main-door-handle"
-                                data-intro="Statement handles for the main entrance &mdash; presence, weight and a luxurious finish."
-                                aria-pressed="false">Main Door Handle<b>3</b></button></div><a
-                            class="btn-a btn-sm btn-block" href="contact.html#enquiry">Send an Enquiry <svg class="ic "
-                                aria-hidden="true">
-                                <use href="#i-arrow" />
-                            </svg></a>
-                    </aside>
-                    <div class="shop-main">
-                        <div class="cat-intro" id="cat-intro" hidden>
-                            <p></p>
-                        </div>
-                        <div class="gal" id="gallery"><a class="pcard zoom tall" data-reveal data-cat="mortise-handle"
-                                data-label="Mortise Handle" data-name="Ornate Lever Mortise Handle"
-                                data-big="assets/images/products/mortise-1.jpg"
-                                href="contact.html?category=Mortise%20Handle#enquiry"
-                                aria-label="Ornate Lever Mortise Handle">
-                                <div class="ph"><img src="assets/images/products/mortise-1.jpg"
-                                        alt="Ornate Lever Mortise Handle" style="--pos:50% 50%" loading="lazy"></div>
-                                <span class="arr"><svg class="ic " aria-hidden="true">
-                                        <use href="#i-arrow" />
-                                    </svg></span>
-                                <div class="cap"><small>Mortise Handle</small>
-                                    <h3>Ornate Lever Mortise Handle</h3>
-                                </div>
-                            </a><a class="pcard zoom std" data-reveal data-cat="mortise-handle"
-                                data-label="Mortise Handle" data-name="Heritage Mortise Handle"
-                                data-big="assets/images/products/mortise-2.jpg"
-                                href="contact.html?category=Mortise%20Handle#enquiry"
-                                aria-label="Heritage Mortise Handle">
-                                <div class="ph"><img src="assets/images/products/mortise-2.jpg"
-                                        alt="Heritage Mortise Handle" style="--pos:50% 45%" loading="lazy"></div><span
-                                    class="arr"><svg class="ic " aria-hidden="true">
-                                        <use href="#i-arrow" />
-                                    </svg></span>
-                                <div class="cap"><small>Mortise Handle</small>
-                                    <h3>Heritage Mortise Handle</h3>
-                                </div>
-                            </a><a class="pcard zoom std" data-reveal data-cat="mortise-handle"
-                                data-label="Mortise Handle" data-name="Estate Mortise Handle"
-                                data-big="assets/images/products/mortise-3.jpg"
-                                href="contact.html?category=Mortise%20Handle#enquiry"
-                                aria-label="Estate Mortise Handle">
-                                <div class="ph"><img src="assets/images/products/mortise-3.jpg"
-                                        alt="Estate Mortise Handle" style="--pos:50% 45%" loading="lazy"></div><span
-                                    class="arr"><svg class="ic " aria-hidden="true">
-                                        <use href="#i-arrow" />
-                                    </svg></span>
-                                <div class="cap"><small>Mortise Handle</small>
-                                    <h3>Estate Mortise Handle</h3>
-                                </div>
-                            </a><a class="pcard zoom tall" data-reveal data-cat="cabinet-handle"
-                                data-label="Cabinet Handle" data-name="Classic Bar Cabinet Handle"
-                                data-big="assets/images/products/cabinet-1.jpg"
-                                href="contact.html?category=Cabinet%20Handle#enquiry"
-                                aria-label="Classic Bar Cabinet Handle">
-                                <div class="ph"><img src="assets/images/products/cabinet-1.jpg"
-                                        alt="Classic Bar Cabinet Handle" style="--pos:50% 50%" loading="lazy"></div>
-                                <span class="arr"><svg class="ic " aria-hidden="true">
-                                        <use href="#i-arrow" />
-                                    </svg></span>
-                                <div class="cap"><small>Cabinet Handle</small>
-                                    <h3>Classic Bar Cabinet Handle</h3>
-                                </div>
-                            </a><a class="pcard zoom wide" data-reveal data-cat="cabinet-handle"
-                                data-label="Cabinet Handle" data-name="Woven Texture Cabinet Handle"
-                                data-big="assets/images/products/cabinet-2.jpg"
-                                href="contact.html?category=Cabinet%20Handle#enquiry"
-                                aria-label="Woven Texture Cabinet Handle">
-                                <div class="ph"><img src="assets/images/products/cabinet-2.jpg"
-                                        alt="Woven Texture Cabinet Handle" style="--pos:50% 14%" loading="lazy"></div>
-                                <span class="arr"><svg class="ic " aria-hidden="true">
-                                        <use href="#i-arrow" />
-                                    </svg></span>
-                                <div class="cap"><small>Cabinet Handle</small>
-                                    <h3>Woven Texture Cabinet Handle</h3>
-                                </div>
-                            </a><a class="pcard zoom std" data-reveal data-cat="cabinet-handle"
-                                data-label="Cabinet Handle" data-name="Vintage Drop Cabinet Handle"
-                                data-big="assets/images/products/cabinet-3.jpg"
-                                href="contact.html?category=Cabinet%20Handle#enquiry"
-                                aria-label="Vintage Drop Cabinet Handle">
-                                <div class="ph"><img src="assets/images/products/cabinet-3.jpg"
-                                        alt="Vintage Drop Cabinet Handle" style="--pos:50% 50%" loading="lazy"></div>
-                                <span class="arr"><svg class="ic " aria-hidden="true">
-                                        <use href="#i-arrow" />
-                                    </svg></span>
-                                <div class="cap"><small>Cabinet Handle</small>
-                                    <h3>Vintage Drop Cabinet Handle</h3>
-                                </div>
-                            </a><a class="pcard zoom tall" data-reveal data-cat="long-handles" data-label="Long Handles"
-                                data-name="Ornate Long Pull Handle" data-big="assets/images/products/long-1.jpg"
-                                href="contact.html?category=Long%20Handles#enquiry"
-                                aria-label="Ornate Long Pull Handle">
-                                <div class="ph"><img src="assets/images/products/long-1.jpg"
-                                        alt="Ornate Long Pull Handle" style="--pos:50% 50%" loading="lazy"></div><span
-                                    class="arr"><svg class="ic " aria-hidden="true">
-                                        <use href="#i-arrow" />
-                                    </svg></span>
-                                <div class="cap"><small>Long Handles</small>
-                                    <h3>Ornate Long Pull Handle</h3>
-                                </div>
-                            </a><a class="pcard zoom std" data-reveal data-cat="long-handles" data-label="Long Handles"
-                                data-name="Grand Pull Handle" data-big="assets/images/products/long-2.jpg"
-                                href="contact.html?category=Long%20Handles#enquiry" aria-label="Grand Pull Handle">
-                                <div class="ph"><img src="assets/images/products/long-2.jpg" alt="Grand Pull Handle"
-                                        style="--pos:50% 40%" loading="lazy"></div><span class="arr"><svg class="ic "
-                                        aria-hidden="true">
-                                        <use href="#i-arrow" />
-                                    </svg></span>
-                                <div class="cap"><small>Long Handles</small>
-                                    <h3>Grand Pull Handle</h3>
-                                </div>
-                            </a><a class="pcard zoom tall" data-reveal data-cat="long-handles" data-label="Long Handles"
-                                data-name="Sculptural Long Handle" data-big="assets/images/products/long-3.jpg"
-                                href="contact.html?category=Long%20Handles#enquiry" aria-label="Sculptural Long Handle">
-                                <div class="ph"><img src="assets/images/products/long-3.jpg"
-                                        alt="Sculptural Long Handle" style="--pos:50% 50%" loading="lazy"></div><span
-                                    class="arr"><svg class="ic " aria-hidden="true">
-                                        <use href="#i-arrow" />
-                                    </svg></span>
-                                <div class="cap"><small>Long Handles</small>
-                                    <h3>Sculptural Long Handle</h3>
-                                </div>
-                            </a><a class="pcard zoom std" data-reveal data-cat="knobs" data-label="Knobs"
-                                data-name="Amber Crystal Knob" data-big="assets/images/products/knobs-1.jpg"
-                                href="contact.html?category=Knobs#enquiry" aria-label="Amber Crystal Knob">
-                                <div class="ph"><img src="assets/images/products/knobs-1.jpg" alt="Amber Crystal Knob"
-                                        style="--pos:50% 50%" loading="lazy"></div><span class="arr"><svg class="ic "
-                                        aria-hidden="true">
-                                        <use href="#i-arrow" />
-                                    </svg></span>
-                                <div class="cap"><small>Knobs</small>
-                                    <h3>Amber Crystal Knob</h3>
-                                </div>
-                            </a><a class="pcard zoom std" data-reveal data-cat="knobs" data-label="Knobs"
-                                data-name="Rosette Gold Knob" data-big="assets/images/products/knobs-2.jpg"
-                                href="contact.html?category=Knobs#enquiry" aria-label="Rosette Gold Knob">
-                                <div class="ph"><img src="assets/images/products/knobs-2.jpg" alt="Rosette Gold Knob"
-                                        style="--pos:50% 50%" loading="lazy"></div><span class="arr"><svg class="ic "
-                                        aria-hidden="true">
-                                        <use href="#i-arrow" />
-                                    </svg></span>
-                                <div class="cap"><small>Knobs</small>
-                                    <h3>Rosette Gold Knob</h3>
-                                </div>
-                            </a><a class="pcard zoom wide" data-reveal data-cat="knobs" data-label="Knobs"
-                                data-name="Crystal Accent Knob" data-big="assets/images/products/knobs-3.jpg"
-                                href="contact.html?category=Knobs#enquiry" aria-label="Crystal Accent Knob">
-                                <div class="ph"><img src="assets/images/products/knobs-3.jpg" alt="Crystal Accent Knob"
-                                        style="--pos:50% 38%" loading="lazy"></div><span class="arr"><svg class="ic "
-                                        aria-hidden="true">
-                                        <use href="#i-arrow" />
-                                    </svg></span>
-                                <div class="cap"><small>Knobs</small>
-                                    <h3>Crystal Accent Knob</h3>
-                                </div>
-                            </a><a class="pcard zoom tall" data-reveal data-cat="main-door-handle"
-                                data-label="Main Door Handle" data-name="Signature Main Door Handle"
-                                data-big="assets/images/products/main-door-1.jpg"
-                                href="contact.html?category=Main%20Door%20Handle#enquiry"
-                                aria-label="Signature Main Door Handle">
-                                <div class="ph"><img src="assets/images/products/main-door-1.jpg"
-                                        alt="Signature Main Door Handle" style="--pos:50% 50%" loading="lazy"></div>
-                                <span class="arr"><svg class="ic " aria-hidden="true">
-                                        <use href="#i-arrow" />
-                                    </svg></span>
-                                <div class="cap"><small>Main Door Handle</small>
-                                    <h3>Signature Main Door Handle</h3>
-                                </div>
-                            </a><a class="pcard zoom tall" data-reveal data-cat="main-door-handle"
-                                data-label="Main Door Handle" data-name="Crystal Entrance Handle"
-                                data-big="assets/images/products/main-door-2.jpg"
-                                href="contact.html?category=Main%20Door%20Handle#enquiry"
-                                aria-label="Crystal Entrance Handle">
-                                <div class="ph"><img src="assets/images/products/main-door-2.jpg"
-                                        alt="Crystal Entrance Handle" style="--pos:50% 50%" loading="lazy"></div><span
-                                    class="arr"><svg class="ic " aria-hidden="true">
-                                        <use href="#i-arrow" />
-                                    </svg></span>
-                                <div class="cap"><small>Main Door Handle</small>
-                                    <h3>Crystal Entrance Handle</h3>
-                                </div>
-                            </a><a class="pcard zoom wide" data-reveal data-cat="main-door-handle"
-                                data-label="Main Door Handle" data-name="Royal Entrance Handle"
-                                data-big="assets/images/products/main-door-3.jpg"
-                                href="contact.html?category=Main%20Door%20Handle#enquiry"
-                                aria-label="Royal Entrance Handle">
-                                <div class="ph"><img src="assets/images/products/main-door-3.jpg"
-                                        alt="Royal Entrance Handle" style="--pos:50% 42%" loading="lazy"></div><span
-                                    class="arr"><svg class="ic " aria-hidden="true">
-                                        <use href="#i-arrow" />
-                                    </svg></span>
-                                <div class="cap"><small>Main Door Handle</small>
-                                    <h3>Royal Entrance Handle</h3>
-                                </div>
-                            </a></div>
-                        <p class="note-line">This is a product showcase. For availability and details, please send us an
-                            enquiry.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+<section class="sec"><div class="container"><div class="shop"><aside class="shop-side" data-reveal><span class="eyebrow">Browse</span><h3>Categories</h3><div class="filters" role="group" aria-label="Filter products"><button type="button" data-f="all" class="on" aria-pressed="true">All Products<b>15</b></button><button type="button" data-f="mortise-handle" data-intro="Refined mortise handles with a solid, confident feel &mdash; designed to anchor interior doors with quiet elegance." aria-pressed="false">Mortise Handle<b>3</b></button><button type="button" data-f="cabinet-handle" data-intro="Modern, understated cabinet handles that add a touch of gold detailing to wardrobes, kitchens and storage." aria-pressed="false">Cabinet Handle<b>3</b></button><button type="button" data-f="long-handles" data-intro="Tall architectural handles with clean lines, made to make a statement on modern doors." aria-pressed="false">Long Handles<b>3</b></button><button type="button" data-f="knobs" data-intro="Sculpted and decorative knobs that bring warmth and character to furniture and interiors." aria-pressed="false">Knobs<b>3</b></button><button type="button" data-f="main-door-handle" data-intro="Statement handles for the main entrance &mdash; presence, weight and a luxurious finish." aria-pressed="false">Main Door Handle<b>3</b></button></div><a class="btn-a btn-sm btn-block" href="contact.html#enquiry">Send an Enquiry <svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></a></aside><div class="shop-main">
+<div class="cat-intro" id="cat-intro" hidden><p></p></div>
+<div class="gal" id="gallery"><a class="pcard zoom tall" data-reveal data-cat="mortise-handle" data-label="Mortise Handle" data-name="Ornate Lever Mortise Handle" data-big="assets/images/products/mortise-1.jpg" href="contact.html?category=Mortise%20Handle#enquiry" aria-label="Ornate Lever Mortise Handle"><div class="ph"><img src="assets/images/products/mortise-1.jpg" alt="Ornate Lever Mortise Handle" style="--pos:50% 50%" loading="lazy"></div><span class="arr"><svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></span><div class="cap"><small>Mortise Handle</small><h3>Ornate Lever Mortise Handle</h3></div></a><a class="pcard zoom std" data-reveal data-cat="mortise-handle" data-label="Mortise Handle" data-name="Heritage Mortise Handle" data-big="assets/images/products/mortise-2.jpg" href="contact.html?category=Mortise%20Handle#enquiry" aria-label="Heritage Mortise Handle"><div class="ph"><img src="assets/images/products/mortise-2.jpg" alt="Heritage Mortise Handle" style="--pos:50% 45%" loading="lazy"></div><span class="arr"><svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></span><div class="cap"><small>Mortise Handle</small><h3>Heritage Mortise Handle</h3></div></a><a class="pcard zoom std" data-reveal data-cat="mortise-handle" data-label="Mortise Handle" data-name="Estate Mortise Handle" data-big="assets/images/products/mortise-3.jpg" href="contact.html?category=Mortise%20Handle#enquiry" aria-label="Estate Mortise Handle"><div class="ph"><img src="assets/images/products/mortise-3.jpg" alt="Estate Mortise Handle" style="--pos:50% 45%" loading="lazy"></div><span class="arr"><svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></span><div class="cap"><small>Mortise Handle</small><h3>Estate Mortise Handle</h3></div></a><a class="pcard zoom tall" data-reveal data-cat="cabinet-handle" data-label="Cabinet Handle" data-name="Classic Bar Cabinet Handle" data-big="assets/images/products/cabinet-1.jpg" href="contact.html?category=Cabinet%20Handle#enquiry" aria-label="Classic Bar Cabinet Handle"><div class="ph"><img src="assets/images/products/cabinet-1.jpg" alt="Classic Bar Cabinet Handle" style="--pos:50% 50%" loading="lazy"></div><span class="arr"><svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></span><div class="cap"><small>Cabinet Handle</small><h3>Classic Bar Cabinet Handle</h3></div></a><a class="pcard zoom wide" data-reveal data-cat="cabinet-handle" data-label="Cabinet Handle" data-name="Woven Texture Cabinet Handle" data-big="assets/images/products/cabinet-2.jpg" href="contact.html?category=Cabinet%20Handle#enquiry" aria-label="Woven Texture Cabinet Handle"><div class="ph"><img src="assets/images/products/cabinet-2.jpg" alt="Woven Texture Cabinet Handle" style="--pos:50% 14%" loading="lazy"></div><span class="arr"><svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></span><div class="cap"><small>Cabinet Handle</small><h3>Woven Texture Cabinet Handle</h3></div></a><a class="pcard zoom std" data-reveal data-cat="cabinet-handle" data-label="Cabinet Handle" data-name="Vintage Drop Cabinet Handle" data-big="assets/images/products/cabinet-3.jpg" href="contact.html?category=Cabinet%20Handle#enquiry" aria-label="Vintage Drop Cabinet Handle"><div class="ph"><img src="assets/images/products/cabinet-3.jpg" alt="Vintage Drop Cabinet Handle" style="--pos:50% 50%" loading="lazy"></div><span class="arr"><svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></span><div class="cap"><small>Cabinet Handle</small><h3>Vintage Drop Cabinet Handle</h3></div></a><a class="pcard zoom tall" data-reveal data-cat="long-handles" data-label="Long Handles" data-name="Ornate Long Pull Handle" data-big="assets/images/products/long-1.jpg" href="contact.html?category=Long%20Handles#enquiry" aria-label="Ornate Long Pull Handle"><div class="ph"><img src="assets/images/products/long-1.jpg" alt="Ornate Long Pull Handle" style="--pos:50% 50%" loading="lazy"></div><span class="arr"><svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></span><div class="cap"><small>Long Handles</small><h3>Ornate Long Pull Handle</h3></div></a><a class="pcard zoom std" data-reveal data-cat="long-handles" data-label="Long Handles" data-name="Grand Pull Handle" data-big="assets/images/products/long-2.jpg" href="contact.html?category=Long%20Handles#enquiry" aria-label="Grand Pull Handle"><div class="ph"><img src="assets/images/products/long-2.jpg" alt="Grand Pull Handle" style="--pos:50% 40%" loading="lazy"></div><span class="arr"><svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></span><div class="cap"><small>Long Handles</small><h3>Grand Pull Handle</h3></div></a><a class="pcard zoom tall" data-reveal data-cat="long-handles" data-label="Long Handles" data-name="Sculptural Long Handle" data-big="assets/images/products/long-3.jpg" href="contact.html?category=Long%20Handles#enquiry" aria-label="Sculptural Long Handle"><div class="ph"><img src="assets/images/products/long-3.jpg" alt="Sculptural Long Handle" style="--pos:50% 50%" loading="lazy"></div><span class="arr"><svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></span><div class="cap"><small>Long Handles</small><h3>Sculptural Long Handle</h3></div></a><a class="pcard zoom std" data-reveal data-cat="knobs" data-label="Knobs" data-name="Amber Crystal Knob" data-big="assets/images/products/knobs-1.jpg" href="contact.html?category=Knobs#enquiry" aria-label="Amber Crystal Knob"><div class="ph"><img src="assets/images/products/knobs-1.jpg" alt="Amber Crystal Knob" style="--pos:50% 50%" loading="lazy"></div><span class="arr"><svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></span><div class="cap"><small>Knobs</small><h3>Amber Crystal Knob</h3></div></a><a class="pcard zoom std" data-reveal data-cat="knobs" data-label="Knobs" data-name="Rosette Gold Knob" data-big="assets/images/products/knobs-2.jpg" href="contact.html?category=Knobs#enquiry" aria-label="Rosette Gold Knob"><div class="ph"><img src="assets/images/products/knobs-2.jpg" alt="Rosette Gold Knob" style="--pos:50% 50%" loading="lazy"></div><span class="arr"><svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></span><div class="cap"><small>Knobs</small><h3>Rosette Gold Knob</h3></div></a><a class="pcard zoom wide" data-reveal data-cat="knobs" data-label="Knobs" data-name="Crystal Accent Knob" data-big="assets/images/products/knobs-3.jpg" href="contact.html?category=Knobs#enquiry" aria-label="Crystal Accent Knob"><div class="ph"><img src="assets/images/products/knobs-3.jpg" alt="Crystal Accent Knob" style="--pos:50% 38%" loading="lazy"></div><span class="arr"><svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></span><div class="cap"><small>Knobs</small><h3>Crystal Accent Knob</h3></div></a><a class="pcard zoom tall" data-reveal data-cat="main-door-handle" data-label="Main Door Handle" data-name="Signature Main Door Handle" data-big="assets/images/products/main-door-1.jpg" href="contact.html?category=Main%20Door%20Handle#enquiry" aria-label="Signature Main Door Handle"><div class="ph"><img src="assets/images/products/main-door-1.jpg" alt="Signature Main Door Handle" style="--pos:50% 50%" loading="lazy"></div><span class="arr"><svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></span><div class="cap"><small>Main Door Handle</small><h3>Signature Main Door Handle</h3></div></a><a class="pcard zoom tall" data-reveal data-cat="main-door-handle" data-label="Main Door Handle" data-name="Crystal Entrance Handle" data-big="assets/images/products/main-door-2.jpg" href="contact.html?category=Main%20Door%20Handle#enquiry" aria-label="Crystal Entrance Handle"><div class="ph"><img src="assets/images/products/main-door-2.jpg" alt="Crystal Entrance Handle" style="--pos:50% 50%" loading="lazy"></div><span class="arr"><svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></span><div class="cap"><small>Main Door Handle</small><h3>Crystal Entrance Handle</h3></div></a><a class="pcard zoom wide" data-reveal data-cat="main-door-handle" data-label="Main Door Handle" data-name="Royal Entrance Handle" data-big="assets/images/products/main-door-3.jpg" href="contact.html?category=Main%20Door%20Handle#enquiry" aria-label="Royal Entrance Handle"><div class="ph"><img src="assets/images/products/main-door-3.jpg" alt="Royal Entrance Handle" style="--pos:50% 42%" loading="lazy"></div><span class="arr"><svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></span><div class="cap"><small>Main Door Handle</small><h3>Royal Entrance Handle</h3></div></a></div>
+<p class="note-line">This is a product showcase. For availability and details, please send us an enquiry.</p></div></div></div></section>
 
-        <div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Product viewer"><button class="c x"
-                type="button" aria-label="Close"><svg class="ic " aria-hidden="true">
-                    <use href="#i-close" />
-                </svg></button><button class="c pv" type="button" aria-label="Previous"><svg class="ic "
-                    aria-hidden="true">
-                    <use href="#i-arrow" />
-                </svg></button>
-            <figure><img src="" alt="">
-                <figcaption><span></span><br><a class="btn-a btn-sm lb-enq" href="contact.html#enquiry">Enquire <svg
-                            class="ic " aria-hidden="true">
-                            <use href="#i-arrow" />
-                        </svg></a></figcaption>
-            </figure><button class="c nx" type="button" aria-label="Next"><svg class="ic " aria-hidden="true">
-                    <use href="#i-arrow" />
-                </svg></button>
-        </div>
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Product viewer"><button class="c x" type="button" aria-label="Close"><svg class="ic " aria-hidden="true"><use href="#i-close"/></svg></button><button class="c pv" type="button" aria-label="Previous"><svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></button>
+<figure><img src="" alt=""><figcaption><span></span><br><a class="btn-a btn-sm lb-enq" href="contact.html#enquiry">Enquire <svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></a></figcaption></figure><button class="c nx" type="button" aria-label="Next"><svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></button></div>
 
-        <section class="cta">
-            <div class="cta-bg"><img src="assets/images/bg/leaves-wide.jpg" alt="" loading="lazy" style="--pos:50% 50%">
-            </div>
-            <div class="container" data-reveal><span class="eyebrow">Let&rsquo;s talk hardware</span>
-                <h2>Looking for the perfect hardware for your space?</h2>
-                <p>Tell us what you need &mdash; we&rsquo;re happy to help.</p>
-                <a class="btn-a magnetic" href="contact.html#enquiry">Send an Enquiry <svg class="ic "
-                        aria-hidden="true">
-                        <use href="#i-arrow" />
-                    </svg></a>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="container">
-            <div class="foot-grid">
-                <div><a class="brand" href="index.html" aria-label="The Hardware Vault - Home"><img
-                            src="assets/images/logo.png" width="1130" height="537" alt="The Hardware Vault"
-                            loading="lazy"></a>
-                    <div class="soc"><a href="#" aria-label="Facebook"><svg class="ic " aria-hidden="true">
-                                <use href="#i-fb" />
-                            </svg></a><a href="#" aria-label="Instagram"><svg class="ic " aria-hidden="true">
-                                <use href="#i-ig" />
-                            </svg></a><a href="#" aria-label="LinkedIn"><svg class="ic " aria-hidden="true">
-                                <use href="#i-in" />
-                            </svg></a><a href="#" aria-label="YouTube"><svg class="ic " aria-hidden="true">
-                                <use href="#i-yt" />
-                            </svg></a></div>
-                </div>
-                <div>
-                    <h4>Explore</h4>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="products.html">Products</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Collections</h4>
-                    <ul>
-                        <li><a href="products.html#mortise-handle">Mortise Handle</a></li>
-                        <li><a href="products.html#cabinet-handle">Cabinet Handle</a></li>
-                        <li><a href="products.html#long-handles">Long Handles</a></li>
-                        <li><a href="products.html#knobs">Knobs</a></li>
-                        <li><a href="products.html#main-door-handle">Main Door Handle</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Contact</h4>
-                    <ul>
-                        <li><svg class="ic " aria-hidden="true">
-                                <use href="#i-phone" />
-                            </svg><a href="tel:+918830532500">+91 88305 32500</a></li>
-                        <li><svg class="ic " aria-hidden="true">
-                                <use href="#i-mail" />
-                            </svg><a href="mailto:shelarjayshree635@gmail.com">shelarjayshree635@gmail.com</a></li>
-                        <li><svg class="ic " aria-hidden="true">
-                                <use href="#i-pin" />
-                            </svg><span>Pimpri Chinchwad, Pune</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="copy"><span>&copy; <span id="year">2026</span> The Hardware Vault. All Rights
-                    Reserved.</span><span>Built to Last. Trusted Always.</span></div>
-        </div>
-        <button class="totop" type="button" aria-label="Back to top"><svg class="ic " aria-hidden="true">
-                <use href="#i-up" />
-            </svg></button>
-        <a class="call-fab" href="tel:+918830532500" aria-label="Call us"><svg class="ic " aria-hidden="true">
-                <use href="#i-phone" />
-            </svg></a>
-    </footer>
-    <script src="assets/js/main.js"></script>
+<section class="cta"><div class="cta-bg"><img src="assets/images/bg/leaves-wide.jpg" alt="" loading="lazy" style="--pos:50% 50%"></div>
+<div class="container" data-reveal><span class="eyebrow">Let&rsquo;s talk hardware</span><h2>Looking for the perfect hardware for your space?</h2><p>Tell us what you need &mdash; we&rsquo;re happy to help.</p>
+<a class="btn-a magnetic" href="contact.html#enquiry">Send an Enquiry <svg class="ic " aria-hidden="true"><use href="#i-arrow"/></svg></a></div></section>
+</main>
+<footer><div class="container"><div class="foot-grid">
+<div><a class="brand" href="index.html" aria-label="The Hardware Vault - Home"><img src="assets/images/logo.png" width="1130" height="537" alt="The Hardware Vault" loading="lazy"></a>
+<div class="soc"><a href="#" aria-label="Facebook"><svg class="ic " aria-hidden="true"><use href="#i-fb"/></svg></a><a href="#" aria-label="Instagram"><svg class="ic " aria-hidden="true"><use href="#i-ig"/></svg></a><a href="#" aria-label="LinkedIn"><svg class="ic " aria-hidden="true"><use href="#i-in"/></svg></a><a href="#" aria-label="YouTube"><svg class="ic " aria-hidden="true"><use href="#i-yt"/></svg></a></div></div>
+<div><h4>Explore</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="products.html">Products</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+<div><h4>Collections</h4><ul><li><a href="products.html#mortise-handle">Mortise Handle</a></li><li><a href="products.html#cabinet-handle">Cabinet Handle</a></li><li><a href="products.html#long-handles">Long Handles</a></li><li><a href="products.html#knobs">Knobs</a></li><li><a href="products.html#main-door-handle">Main Door Handle</a></li></ul></div>
+<div><h4>Contact</h4><ul>
+<li><svg class="ic " aria-hidden="true"><use href="#i-phone"/></svg><a href="tel:+918830532500">+91 88305 32500</a></li>
+<li><svg class="ic " aria-hidden="true"><use href="#i-mail"/></svg><a href="mailto:shelarjayshree635@gmail.com">shelarjayshree635@gmail.com</a></li>
+<li><svg class="ic " aria-hidden="true"><use href="#i-pin"/></svg><span>Pimpri Chinchwad, Pune</span></li></ul></div>
+</div>
+<div class="copy"><span>&copy; <span id="year">2026</span> The Hardware Vault. All Rights Reserved.</span><span>Built to Last. Trusted Always.</span></div></div>
+<button class="totop" type="button" aria-label="Back to top"><svg class="ic " aria-hidden="true"><use href="#i-up"/></svg></button>
+<a class="call-fab" href="tel:+918830532500" aria-label="Call us"><svg class="ic " aria-hidden="true"><use href="#i-phone"/></svg></a>
+</footer>
+<script src="assets/js/main.js"></script>
 </body>
-
 </html>
