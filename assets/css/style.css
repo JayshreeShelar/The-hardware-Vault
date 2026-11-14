@@ -638,6 +638,7 @@ footer{background:linear-gradient(rgba(29,19,14,.9),rgba(29,19,14,.94)),url(../i
 .sec-form{min-height:100svh;display:flex;align-items:center;padding:5.8rem 0 2rem}
 .sec-form>.container{width:100%}
 .sec-form .cols{align-items:stretch;gap:1.4rem}
+@media(min-width:992px){.sec-form .cols{column-gap:2.2rem}}
 .sec-form .form-box{padding:1.3rem 1.6rem 1.4rem;background:rgba(255,255,255,.94);border:1px solid rgba(198,163,106,.5);border-radius:28px;box-shadow:0 30px 60px -32px rgba(48,33,27,.55)}
 .sec-form .form-box h2{font-size:1.75rem;margin-bottom:.6rem}
 .sec-form .form-box .form-control{padding:.55rem .85rem;border:1px solid rgba(169,130,67,.35);border-radius:12px;background:#fbf7ef}
@@ -720,11 +721,29 @@ footer{background:linear-gradient(rgba(29,19,14,.9),rgba(29,19,14,.94)),url(../i
 .hero-split .lead-row .btn-a{padding:.8rem 1.15rem;font-size:.7rem}
 
 /* v7: narrower contact form + info panel */
-.sec-form>.container{max-width:960px}
-.sec-form .cols{gap:1.2rem}
-@media(min-width:992px){.sec-form .cols-7-5{grid-template-columns:1.25fr 1fr}}
+@media(min-width:992px){.sec-form .cols-7-5{grid-template-columns:1fr 1fr}}
 @media(max-width:991px){.sec-form .cols-7-5{grid-template-columns:1fr}}
 .shop{scroll-margin-top:6rem}
 
 /* v7 fix: filtered-out cards must really disappear (was overridden by later display:flex) */
 .gal .pcard.hide,.gal.cat .pcard.hide{display:none!important}
+
+/* v8: contact form + info panel same height as the map section (desktop) */
+@media(min-width:992px){
+.sec-form{min-height:0;display:block;padding:var(--sec) 0}
+.sec-form .form-box{padding:.9rem 1.4rem 1rem;height:auto}
+.sec-form .form-box .eyebrow{display:none}
+.sec-form .form-box h2{font-size:1.45rem;margin:0 0 .45rem}
+.sec-form .form-grid{gap:.35rem .8rem}
+.sec-form .form-box .form-control{padding:.4rem .75rem;font-size:.88rem}
+.sec-form .form-box textarea.form-control{min-height:49px;height:49px}
+.sec-form .field label{font-size:.64rem;margin-bottom:.1rem}
+.sec-form .field .error{min-height:.7em;font-size:.68rem;margin-top:0;line-height:1}
+.sec-form .form-status{margin:.2rem 0 0}
+.sec-form .form-box .btn-a{margin-top:.3rem;padding:.6rem 1rem}
+.sec-form .info-panel{padding:1rem 1.5rem}
+.sec-form .info-panel .eyebrow{margin-bottom:.2rem}
+.sec-form .info-panel h3{font-size:1.45rem;margin-bottom:.2rem}
+.sec-form .info-panel .info li{padding:.4rem 0}
+.sec-form .info-panel .soc{margin-top:.4rem}
+}
